@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Weather from "./Weather";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
+export default function App() {
+  return (<div className="App" >
+    <div className="container" >
+      <Weather defaultCity="New York" />
+
+      <footer >
+        This project was coded by Mariya Harizanova{
+          " "
+        } <a href="https://www.delac.io/"
           target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+          rel="noopener noreferrer" >
+        </a>{" "}and is {
+            " "
+          } <a href = "https://github.com/mharizanova8703/React-weather"
+            target="_blank"
+            rel="noopener noreferrer" >
+            open - sourced on GitHub </a>{" "}and {
+              " "
+            } <a href=""
+              target="_blank"
+              rel="noopener noreferrer" >hosted on Netlify </a> </footer> </div> </div>
   );
 }
-
-export default App;
