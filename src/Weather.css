@@ -1,4 +1,6 @@
 .Weather {
+    background-image:url(/src/images/weather.png);
+    margin: 5rem;
     font-family: arial, sans-serif;
     border: 1px solid #dadde1;
     padding: 16px;
