@@ -17,8 +17,8 @@ export default function App() {
             " "
           } <a href = "https://github.com/mharizanova8703/React-weather"
             target="_blank"
-            rel="noopener noreferrer" >
-            open - sourced on GitHub </a>{" "}and {
+            rel="noopener noreferrer">
+            open-sourced on GitHub </a>{" "}and {
               " "
             } <a href = "https://cozy-cat-69f2cf.netlify.app/"
               target="_blank"
